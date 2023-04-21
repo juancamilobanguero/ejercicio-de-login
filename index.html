@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+
+    <h1 class="formula">Formulario de aspirantes</h1>
+    <div class="container">
+    <form id="form-data" data-form>
+      <div class="field">
+        <label for="nombre">Nombre</label>
+        <input  type="text" id="nombre" name="nombres" placeholder="ej:camilo" data-field-nombres />
+      </div>
+
+      <div class="field">
+        <label for="apellido">Apellido</label>
+        <input  type="text" id="apellido" name="apellido"placeholder="ej:banguero" data-field-apellido />
+      </div>
+
+      <div class="field">
+        <label for="Email">Email</label>
+        <input type="email" id="Email name="email" placeholder="Email" />
+      </div>
+
+      <div class="field">
+        <label for="name">Aspditacion salarial</label>
+        <input type="number" id="salarial" name="salarial" placeholder="ej:150" data-field-salarial/>
+      </div>
+
+      <div class="field">
+        <label for="name">Genero</label>
+        <select name="Genero" id="Genero" data-field-Genero>
+          <option value>selecionar</option>
+          <option value="femenino">femenino</option>
+          <option value="masculino">masculino</option>
+          <option value="otrosexo">otro sexo</option>
+      </div>
+      <div class="field">
+        <label>cargo</label>
+        <ul class="options">
+          <li class="option">
+            ::marker
+            div
+            <input type="checkbox" name="Cargo" id="asistente" class="checkbox" value="asistente" data-field-cargo>
+            <label for="asistente">asistente</label>
+          </li>
+        </ul>
+        </div>
+        
+      <div class="fields">
+        <button type="submit">subir</button>
+        <button type="reset">Limpiar</button>
+      </div>
+    </form>
+  </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

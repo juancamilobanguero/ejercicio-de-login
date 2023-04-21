@@ -1,0 +1,43 @@
+body{
+    background-color: aquamarine;
+}
+.field{
+    padding: 0.2rem;
+}
+input[type="text"], input[type="number"], input[type="email"]{
+    width: 100%;
+    padding: .7rem;
+  
+}
+form{
+   background-color: rgb(64, 64, 238);
+    margin: 2rem;
+    height: 33rem;
+    max-width: 30%;
+    padding: 0 5rem;
+    color: aliceblue;
+}
+
+.btn-subir{
+    padding: .4rem .8rem;
+}
+
+.formula{
+    text-align: center;
+    font-size: 2rem;
+}
+form#form-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input#nombre {
+    width: 100%;
+}
+
+  
